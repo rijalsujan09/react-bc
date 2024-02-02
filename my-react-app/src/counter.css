@@ -1,0 +1,32 @@
+.counter-container {
+    text-align: center;
+}
+
+.text-content {
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-increment {
+    background-color: green;
+}
+
+.btn-decrement {
+    background-color: red;
+}
+
+.btn-reset {
+    background-color: yellow;
+}
