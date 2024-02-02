@@ -11,6 +11,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import UpdateObjectState from "./UpdateObjectState.jsx";
 import UpdateArrayState from "./UpdateArrayState.jsx";
 import MyCars from "./MyCars.jsx";
+import ToDoApp from "./ToDoApp.jsx";
 
 function App() {
   const fruits = [
@@ -64,9 +65,10 @@ function App() {
       {/* <ColorPicker /> */}
 
       {/* <UpdateObjectState /> */}
-      <UpdateArrayState />
+      {/* <UpdateArrayState />
       <hr />
-      <MyCars />
+      <MyCars /> */}
+      <ToDoApp></ToDoApp>
     </>
   );
 }
