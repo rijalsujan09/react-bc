@@ -6,6 +6,10 @@ import List from "./List.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
+import MyComp from "./MyComp.jsx";
+import ColorPicker from "./ColorPicker.jsx";
+import UpdateObjectState from "./UpdateObjectState.jsx";
+import UpdateArrayState from "./UpdateArrayState.jsx";
 
 function App() {
   const fruits = [
@@ -52,7 +56,14 @@ function App() {
       {/* <ProfilePicture /> */}
       {/* <MyComponent /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      {/* <MyComp /> */}
+
+      {/* <ColorPicker /> */}
+
+      {/* <UpdateObjectState /> */}
+      <UpdateArrayState />
     </>
   );
 }
