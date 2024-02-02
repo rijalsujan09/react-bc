@@ -10,6 +10,7 @@ import MyComp from "./MyComp.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import UpdateObjectState from "./UpdateObjectState.jsx";
 import UpdateArrayState from "./UpdateArrayState.jsx";
+import MyCars from "./MyCars.jsx";
 
 function App() {
   const fruits = [
@@ -64,6 +65,8 @@ function App() {
 
       {/* <UpdateObjectState /> */}
       <UpdateArrayState />
+      <hr />
+      <MyCars />
     </>
   );
 }
