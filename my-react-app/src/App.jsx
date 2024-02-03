@@ -13,6 +13,9 @@ import UpdateArrayState from "./UpdateArrayState.jsx";
 import MyCars from "./MyCars.jsx";
 import ToDoApp from "./ToDoApp.jsx";
 import UseEffectDemo from "./UseEffectDemo.jsx";
+import DigitalClock from "./DigitalClock.jsx";
+import ComponentA from "./ComponentA.jsx";
+import RefDemo from "./RefDemo.jsx";
 
 function App() {
   const fruits = [
@@ -71,7 +74,12 @@ function App() {
       <MyCars />
       <ToDoApp></ToDoApp> */}
 
-      <UseEffectDemo></UseEffectDemo>
+      {/* <UseEffectDemo></UseEffectDemo> */}
+      {/* <DigitalClock /> */}
+
+      {/* <ComponentA /> */}
+
+      <RefDemo />
     </>
   );
 }
