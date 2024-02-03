@@ -12,6 +12,7 @@ import UpdateObjectState from "./UpdateObjectState.jsx";
 import UpdateArrayState from "./UpdateArrayState.jsx";
 import MyCars from "./MyCars.jsx";
 import ToDoApp from "./ToDoApp.jsx";
+import UseEffectDemo from "./UseEffectDemo.jsx";
 
 function App() {
   const fruits = [
@@ -54,21 +55,23 @@ function App() {
       )}
       <List /> */}
 
-      {/* <Button /> */}
-      {/* <ProfilePicture /> */}
-      {/* <MyComponent /> */}
+      {/* <Button />
+      <ProfilePicture />
+      <MyComponent />
 
-      {/* <Counter /> */}
+      <Counter />
 
-      {/* <MyComp /> */}
+      <MyComp />
 
-      {/* <ColorPicker /> */}
+      <ColorPicker />
 
-      {/* <UpdateObjectState /> */}
-      {/* <UpdateArrayState />
+      <UpdateObjectState />
+      <UpdateArrayState />
       <hr />
-      <MyCars /> */}
-      <ToDoApp></ToDoApp>
+      <MyCars />
+      <ToDoApp></ToDoApp> */}
+
+      <UseEffectDemo></UseEffectDemo>
     </>
   );
 }
