@@ -1,20 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+
 function RefDemo() {
-  const inputRef = useRef(null);
+  const ref1 = useRef(null);
 
   useEffect(() => {
-    console.log("COMPONENT RENDERED");
+    console.log("Component Rendered");
   }, []);
 
-  const handleClick = () => {
-    inputRef.current.focus();
-    inputRef.current.style.backgroundColor = "yellow";
-  };
+  function handleClick() {
+    ref1.current.focus();
+    ref1.current.style.background = "yellow";
+  }
 
   return (
     <div>
-      <button onClick={handleClick}>Click</button>
-      <input ref={inputRef} />
+      <button onClick={handleClick}>click Me</button>
+      <input ref={ref1} />
     </div>
   );
 }
