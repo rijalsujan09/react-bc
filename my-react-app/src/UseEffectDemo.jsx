@@ -28,8 +28,17 @@ function UseEffectDemo() {
   }
   useEffect(() => {
     window.addEventListener("resize", handelResize);
+    document.title = `width : ${width}  & height: ${height}`;
     console.log("event listner added");
-  }, [width, height]);
+
+    return () => {
+      window.removeEventListener("resize", handelResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    document.title = `width : ${width}  & height: ${height}`;
+  }, [height, width]);
 
   return (
     <div>
